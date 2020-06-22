@@ -13,8 +13,7 @@ Performed exploratary data analysis on training data
 ## PCA
 Performed feature engineering/selection and dimensionality reduction using principle component analysis(PCA) 
 ## Model
-To find best model, 
-We tried following algorithm:
+To find best model, We tried following algorithms:
 1) Lasso regression
 2) Ridge regression
 3) Linear regression
@@ -23,14 +22,14 @@ We tried following algorithm:
 6) Elastic Net regression
 7) Extreme Trees regression
 8) Support vector machine(SVM)
-9) K nearest neighbour(KNN)
+9) K nearest neighbour(KNN)<br>
      out of which, XGBoost has given best results.
 ## Fine tuning
 For fine tuning of the model, We tried to reduce RMSE obtained from XGBoost by changing the hyperparameters and preprocessing techniques.
 
-Training data size: (550069, 12)
+Training data size: (550069, 12)<br>
 We split it as 80:20 where 20% is for validation set
 
 Test data size: (233599, 11)
 
-Final RMSE value obtained: 2535
+### Final RMSE value obtained: 2535
