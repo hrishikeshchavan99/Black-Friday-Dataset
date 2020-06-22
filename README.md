@@ -27,9 +27,11 @@ To find best model, We tried following algorithms:
 ## Fine tuning
 For fine tuning of the model, We tried to reduce RMSE obtained from XGBoost by changing the hyperparameters and preprocessing techniques.
 
-Training data size: (550069, 12)<br>
+Training data: train.csv <br> size: (550069, 12)<br>
 We split it as 80:20 where 20% is for validation set
 
-Test data size: (233599, 11)
+Test data: test.csv <br> size: (233599, 11)
 
-     ### Final RMSE value obtained: 2535
+   ### Final RMSE value obtained: 2535
+
+final_prediction.csv: countain finally predicted purchase values.
